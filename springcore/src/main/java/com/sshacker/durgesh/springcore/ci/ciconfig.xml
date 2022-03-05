@@ -11,12 +11,15 @@
 
 	<bean name="person"
 		class="com.sshacker.durgesh.springcore.ci.Person">
-		<constructor-arg name="name">
+		<!-- <constructor-arg name="name">
 			<value>Raju</value>
 		</constructor-arg>
 		<constructor-arg name="personId" type="int">
 			<value>25</value>
-		</constructor-arg>
+		</constructor-arg> -->
+		
+		<constructor-arg value="Rajesh"/>
+		<constructor-arg value="26" type="int"/>
 	</bean>
 
 </beans>
