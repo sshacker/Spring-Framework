@@ -14,9 +14,10 @@
 	
 	<bean name="aref" class="com.sshacker.durgesh.springcore.ref.A">
 		<property name="val" value="20"/>
-		<property name="objB">
+		<!-- <property name="objB">
 			<ref bean="bref"/>
-		</property>
+		</property> -->
+		<property name="objB" ref="bref"/>
 	</bean>
 	
 </beans>
