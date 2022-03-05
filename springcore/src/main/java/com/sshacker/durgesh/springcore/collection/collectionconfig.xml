@@ -17,6 +17,29 @@
 				<value>1342325443</value>
 			</list>
 		</property>
+		
+		<!-- 
+		1. for null value
+		<property name="phones">
+			<list>
+				<value>12345667</value>
+				<value>324355667</value>
+				<value>1342325443</value>
+				<null/>
+			</list>
+		</property>
+		
+		2. for single value
+		<property name="phones">
+				<value>12345667</value>
+		</property>	
+		
+		3. for empty list
+		<property name="phones">
+		</property>	
+		 -->		
+		
+		
 		<property name="addresses">
 			<set>
 				<value>Kanpur</value>
