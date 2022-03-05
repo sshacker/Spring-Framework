@@ -10,5 +10,4 @@ public class TestMain {
 		Person person = (Person) context.getBean("person");
 		System.out.println(person);
 	}
-
 }

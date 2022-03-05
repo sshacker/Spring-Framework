@@ -9,17 +9,21 @@
 	 http://www.springframework.org/schema/context
 	 http://www.springframework.org/schema/beans/spring-context.xsd">
 
+	<bean name="certiref"
+		class="com.sshacker.durgesh.springcore.ci.Certificate">
+		<constructor-arg value="Python" />
+	</bean>
+
 	<bean name="person"
 		class="com.sshacker.durgesh.springcore.ci.Person">
-		<!-- <constructor-arg name="name">
-			<value>Raju</value>
-		</constructor-arg>
-		<constructor-arg name="personId" type="int">
-			<value>25</value>
-		</constructor-arg> -->
-		
-		<constructor-arg value="Rajesh"/>
-		<constructor-arg value="26" type="int"/>
+		<!-- <constructor-arg name="name"> <value>Raju</value> </constructor-arg> 
+			<constructor-arg name="personId" type="int"> <value>25</value> </constructor-arg> -->
+
+		<constructor-arg value="Rajesh" />
+		<constructor-arg value="26" type="int" />
+		<constructor-arg name="certificate" ref="certiref" />
 	</bean>
+
+
 
 </beans>
