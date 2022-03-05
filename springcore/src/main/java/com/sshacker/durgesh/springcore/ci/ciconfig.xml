@@ -14,7 +14,7 @@
 		<constructor-arg name="name">
 			<value>Raju</value>
 		</constructor-arg>
-		<constructor-arg name="personId">
+		<constructor-arg name="personId" type="int">
 			<value>25</value>
 		</constructor-arg>
 	</bean>
