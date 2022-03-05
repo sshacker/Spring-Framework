@@ -1,4 +1,4 @@
-package com.sshacker.durgesh.springcore;
+package com.sshacker.springcore;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

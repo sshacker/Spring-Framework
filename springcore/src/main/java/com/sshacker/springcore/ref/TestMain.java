@@ -1,4 +1,4 @@
-package com.sshacker.durgesh.springcore.ref;
+package com.sshacker.springcore.ref;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestMain {
 
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("com/sshacker/durgesh/springcore/ref/refconfig.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/sshacker/springcore/ref/refconfig.xml");
 		A a = (A) context.getBean("aref");
 		System.out.println(a);
 		System.out.println(a.getVal());

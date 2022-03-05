@@ -10,10 +10,10 @@
 	 http://www.springframework.org/schema/beans/spring-context.xsd">
 
 	<bean name="certiref"
-		class="com.sshacker.durgesh.springcore.ci.Certificate" c:name="Python"/>
+		class="com.sshacker.springcore.ci.Certificate" c:name="Python"/>
 
 	<bean name="person"
-		class="com.sshacker.durgesh.springcore.ci.Person" c:name="Rajesh" c:personId="26" c:certificate-ref="certiref">
+		class="com.sshacker.springcore.ci.Person" c:name="Rajesh" c:personId="26" c:certificate-ref="certiref">
 <!-- 	<constructor-arg name="name"> <value>Raju</value> </constructor-arg> 
 			<constructor-arg name="personId" type="int"> <value>25</value> </constructor-arg>
 

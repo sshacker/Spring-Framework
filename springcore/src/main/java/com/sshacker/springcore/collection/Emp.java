@@ -1,4 +1,4 @@
-package com.sshacker.durgesh.springcore.collection;
+package com.sshacker.springcore.collection;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.sshacker.durgesh.springcore;
+package com.sshacker.springcore;
 
 public class Student {
 	private int studentId;

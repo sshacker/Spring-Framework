@@ -9,7 +9,7 @@
 	 http://www.springframework.org/schema/beans/spring-context.xsd">
 
 	<bean name="emp1"
-		class="com.sshacker.durgesh.springcore.collection.Emp">
+		class="com.sshacker.springcore.collection.Emp">
 		<property name="name" value="Radhe" />
 		<property name="phones">
 			<list>

@@ -8,11 +8,11 @@
 	 http://www.springframework.org/schema/context
 	 http://www.springframework.org/schema/beans/spring-context.xsd">
 	
-	<bean name="bref" class="com.sshacker.durgesh.springcore.ref.B">
+	<bean name="bref" class="com.sshacker.springcore.ref.B">
 		<property name="num" value="50"/>
 	</bean>
 	
-	<bean name="aref" class="com.sshacker.durgesh.springcore.ref.A" p:val="33" p:objB-ref="bref" />
+	<bean name="aref" class="com.sshacker.springcore.ref.A" p:val="33" p:objB-ref="bref" />
 	
 		<!-- <property name="val" value="20"/>
 		<property name="objB">

@@ -1,4 +1,4 @@
-package com.sshacker.durgesh.springcore.ci;
+package com.sshacker.springcore.ci;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.sshacker.durgesh.springcore.ci;
+package com.sshacker.springcore.ci;
 
 public class Certificate {
 	String name;

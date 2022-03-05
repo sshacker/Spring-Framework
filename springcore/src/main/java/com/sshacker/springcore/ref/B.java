@@ -1,4 +1,4 @@
-package com.sshacker.durgesh.springcore.ref;
+package com.sshacker.springcore.ref;
 
 public class B {
 	private int num;
