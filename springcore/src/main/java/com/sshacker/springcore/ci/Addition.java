@@ -16,6 +16,12 @@ public class Addition {
 		System.out.println("Constructor with int, int");
 	}
 
+	public Addition(String a, String b) {
+		this.a = Integer.parseInt(a);
+		this.b = Integer.parseInt(b);
+		System.out.println("Constructor with String, String");
+	}
+	
 	public void add() {
 		System.out.println("Sum : "+ (this.a + this.b));
 	}
