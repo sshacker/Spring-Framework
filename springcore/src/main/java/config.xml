@@ -9,17 +9,15 @@
 	 http://www.springframework.org/schema/beans/spring-context.xsd">
 
 	<bean name="student1" class="com.sshacker.durgesh.springcore.Student">
-		<property name="studentId">
-			<value>40</value>
-		</property>
-
-		<property name="studentName">
-			<value>Shivam Sonkar</value>
-		</property>
-
-		<property name="studentAddress">
-			<value>Bhadohi</value>
-		</property>
+		<property name="studentId" value="40" />
+		<property name="studentName" value="Shivam Sonkar"/>
+		<property name="studentAddress" value="Bhadohi"/>
+	</bean>
+	
+	<bean name="student2" class="com.sshacker.durgesh.springcore.Student">
+		<property name="studentId" value="32" />
+		<property name="studentName" value="Vaibhav Mishra"/>
+		<property name="studentAddress" value="Sultanpur"/>
 	</bean>
 
 </beans>
