@@ -7,10 +7,6 @@ public class Certificate {
 		this.name = name;
 	}
 
-	public Certificate() {
-
-	}
-
 	@Override
 	public String toString() {
 		return "Certificate [name=" + name + "]";

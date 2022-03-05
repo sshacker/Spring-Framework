@@ -22,8 +22,14 @@
 		<constructor-arg value="Rajesh" />
 		<constructor-arg value="26" type="int" />
 		<constructor-arg name="certificate" ref="certiref" />
+
+		<constructor-arg name="items">
+			<list>
+				<value>Apple</value>
+				<value>Banana</value>
+				<value>Grapes</value>
+			</list>
+		</constructor-arg>
 	</bean>
-
-
 
 </beans>
