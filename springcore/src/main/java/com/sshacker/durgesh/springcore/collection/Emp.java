@@ -2,6 +2,7 @@ package com.sshacker.durgesh.springcore.collection;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 
 public class Emp {
@@ -9,6 +10,7 @@ public class Emp {
 	private List<String> phones;
 	private Set<String> addresses;
 	private Map<String, String> courses;
+	private Properties login;
 
 	public String getName() {
 		return name;
@@ -42,6 +44,14 @@ public class Emp {
 		this.courses = courses;
 	}
 
+	public Properties getLogin() {
+		return login;
+	}
+
+	public void setLogin(Properties login) {
+		this.login = login;
+	}
+	
 	public Emp(String name, List<String> phones, Set<String> addresses, Map<String, String> courses) {
 		super();
 		this.name = name;

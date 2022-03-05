@@ -12,6 +12,7 @@ public class TestMain {
 		System.out.println(e1.getPhones());
 		System.out.println(e1.getAddresses());
 		System.out.println(e1.getCourses());
+		System.out.println(e1.getLogin());
 	}
 
 }
