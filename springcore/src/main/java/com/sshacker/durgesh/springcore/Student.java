@@ -10,6 +10,7 @@ public class Student {
 	}
 
 	public void setStudentId(int studentId) {
+		System.out.println("calling setSudentId...");
 		this.studentId = studentId;
 	}
 
@@ -18,6 +19,7 @@ public class Student {
 	}
 
 	public void setStudentName(String studentName) {
+		System.out.println("calling setStudentName...");
 		this.studentName = studentName;
 	}
 
@@ -26,6 +28,7 @@ public class Student {
 	}
 
 	public void setStudentAddress(String studentAddress) {
+		System.out.println("calling setStudentAddress...");
 		this.studentAddress = studentAddress;
 	}
 
