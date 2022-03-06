@@ -1,11 +1,12 @@
 package com.sshacker.springcore.autowire.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emp {
 	
-	// @Autowire for constructor
 	@Autowired
+	@Qualifier("address2")
 	private Address address;
 
 	public Address getAddress() {
