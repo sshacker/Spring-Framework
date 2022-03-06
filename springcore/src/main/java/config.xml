@@ -6,7 +6,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	 http://www.springframework.org/schema/beans/spring-beans.xsd
 	 http://www.springframework.org/schema/context
-	 http://www.springframework.org/schema/beans/spring-context.xsd">
+	 http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<bean name="student1" class="com.sshacker.springcore.Student" p:studentId="40" p:studentName="Shivam Sonkar" p:studentAddress="Bhadohi" />
 	<bean name="student2" class="com.sshacker.springcore.Student" p:studentId="32" p:studentName="Vaibhav Mishra" p:studentAddress="Sultanpur" />
