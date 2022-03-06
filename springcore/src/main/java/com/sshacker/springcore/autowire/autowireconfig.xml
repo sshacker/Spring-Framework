@@ -14,6 +14,6 @@
 		<property name="city" value="Bhadohi" />
 	</bean>
 
-	<bean name="emp" class="com.sshacker.springcore.autowire.Emp" autowire="byName" />
+	<bean name="emp" class="com.sshacker.springcore.autowire.Emp" autowire="byType" />
 
 </beans>
