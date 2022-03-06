@@ -4,14 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class Emp {
 
-	// @Autowire for property
-	@Autowired
 	private Address address;
 
 	public Address getAddress() {
 		return address;
 	}
 
+	// @Autowire for setter method
+		@Autowired
 	public void setAddress(Address address) {
 		System.out.println("inside setter : Emp");
 		this.address = address;
