@@ -10,8 +10,6 @@ public class Emp {
 		return address;
 	}
 
-	// @Autowire for setter method
-		@Autowired
 	public void setAddress(Address address) {
 		System.out.println("inside setter : Emp");
 		this.address = address;
@@ -22,6 +20,8 @@ public class Emp {
 		System.out.println("inside Emp default constructor");
 	}
 
+	// @Autowire for constructor
+	@Autowired
 	public Emp(Address address) {
 		super();
 		this.address = address;
