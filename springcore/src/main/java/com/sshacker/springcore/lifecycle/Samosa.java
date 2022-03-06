@@ -22,11 +22,11 @@ public class Samosa {
 		return "Samosa [price=" + price + "]";
 	}
 	
-	public void init() {
+	public void afterPropertySetInit() {
 		System.out.println("inside init");
 	}
 	
-	private void destroy() {
+	private void beforeDestroy() {
 		System.out.println("inside destroy");
 	}
 
