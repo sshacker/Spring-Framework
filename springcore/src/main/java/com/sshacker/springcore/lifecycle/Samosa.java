@@ -8,7 +8,7 @@ public class Samosa {
 	}
 
 	public void setPrice(double price) {
-		System.out.println("Setting price..");
+		System.out.println("Setting Samosa price..");
 		this.price = price;
 	}
 
@@ -23,11 +23,11 @@ public class Samosa {
 	}
 	
 	public void afterPropertySetInit() {
-		System.out.println("inside init");
+		System.out.println("inside init : Samosa");
 	}
 	
 	private void beforeDestroy() {
-		System.out.println("inside destroy");
+		System.out.println("inside destroy : Samosa");
 	}
 
 }
