@@ -6,15 +6,18 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	 http://www.springframework.org/schema/beans/spring-beans.xsd
 	 http://www.springframework.org/schema/context
-	 http://www.springframework.org/schema/beans/spring-context.xsd">
+	 http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean name="s1" class="com.sshacker.springcore.lifecycle.Samosa"
-		init-method="afterPropertySetInit" destroy-method="beforeDestroy">
-		<property name="price" value="10" />
-	</bean>
+	<!-- <bean name="s1" class="com.sshacker.springcore.lifecycle.Samosa" init-method="afterPropertySetInit" 
+		destroy-method="beforeDestroy"> <property name="price" value="10" /> </bean> 
+		<bean name="p1" class="com.sshacker.springcore.lifecycle.Pepsi"> <property 
+		name="price" value="50"></property> </bean> -->
 
-	<bean name="p1" class="com.sshacker.springcore.lifecycle.Pepsi">
-		<property name="price" value="50"></property>
+	<!-- To enable annotation It will enable all annotation in spring by default annotation is disable-->
+	<context:annotation-config />
+	
+	<bean name="e1" class="com.sshacker.springcore.lifecycle.Example">
+		<property name="subject" value="Maths" />
 	</bean>
 
 </beans>

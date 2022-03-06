@@ -15,12 +15,15 @@ public class MainApp {
 		AbstractApplicationContext context = new ClassPathXmlApplicationContext(
 				"com/sshacker/springcore/lifecycle/lifecycleconfig.xml");
 		context.registerShutdownHook();
+
+//		Samosa samosa = (Samosa) context.getBean("s1");
+//		System.out.println(samosa);
+//		
+//		Pepsi pepsi = (Pepsi) context.getBean("p1");
+//		System.out.println(pepsi);
 		
-		Samosa samosa = (Samosa) context.getBean("s1");
-		System.out.println(samosa);
-		
-		Pepsi pepsi = (Pepsi) context.getBean("p1");
-		System.out.println(pepsi);
-		
+		Example example = (Example) context.getBean("e1");
+		System.out.println(example);
+
 	}
 }
