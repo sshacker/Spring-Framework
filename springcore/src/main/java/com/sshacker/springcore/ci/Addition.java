@@ -23,6 +23,8 @@ public class Addition {
 	}
 	
 	public void add() {
+		System.out.println("a : "+a);
+		System.out.println("b : "+b);
 		System.out.println("Sum : "+ (this.a + this.b));
 	}
 }
