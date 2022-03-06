@@ -14,12 +14,12 @@
 		<property name="city" value="Bhadohi" />
 	</bean>
 	
-	<bean name="address6"
+	<bean name="address"
 		class="com.sshacker.springcore.autowire.Address">
 		<property name="street" value="Bathua" />
 		<property name="city" value="Mirzapur" />
 	</bean>
 
-	<bean name="emp" class="com.sshacker.springcore.autowire.Emp" autowire="byType" />
+	<bean name="emp" class="com.sshacker.springcore.autowire.Emp" autowire="constructor" />
 
 </beans>

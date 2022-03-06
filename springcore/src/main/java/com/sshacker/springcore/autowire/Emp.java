@@ -14,12 +14,13 @@ public class Emp {
 	
 	public Emp() {
 		super();
-		// TODO Auto-generated constructor stub
+		System.out.println("inside Emp default constructor");
 	}
 
 	public Emp(Address address) {
 		super();
 		this.address = address;
+		System.out.println("inside Emp parameterized constructor");
 	}
 
 	@Override
