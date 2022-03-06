@@ -14,10 +14,13 @@
 		name="price" value="50"></property> </bean> -->
 
 	<!-- To enable annotation It will enable all annotation in spring by default annotation is disable-->
-	<context:annotation-config />
+	<!-- <context:annotation-config /> -->
 	
 	<bean name="e1" class="com.sshacker.springcore.lifecycle.Example">
 		<property name="subject" value="Maths" />
 	</bean>
+	
+	<!-- To enable annotation for @PostConstruct and @PreDestroy only not for all annotation-->
+	<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"></bean>
 
 </beans>
