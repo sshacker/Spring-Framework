@@ -11,10 +11,16 @@
 	 <!-- To enable annotation -->
 	 <context:annotation-config/>
 
-	<bean name="address"
+	<bean name="address1"
 		class="com.sshacker.springcore.autowire.annotation.Address">
 		<property name="street" value="Nai Bazar" />
 		<property name="city" value="Bhadohi" />
+	</bean>
+	
+	<bean name="address2"
+		class="com.sshacker.springcore.autowire.annotation.Address">
+		<property name="street" value="Pahadi" />
+		<property name="city" value="Mirzapur" />
 	</bean>
 	
 	<bean name="emp" class="com.sshacker.springcore.autowire.annotation.Emp" />

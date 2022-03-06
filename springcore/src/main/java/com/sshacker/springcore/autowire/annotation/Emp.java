@@ -3,7 +3,9 @@ package com.sshacker.springcore.autowire.annotation;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Emp {
-
+	
+	// @Autowire for constructor
+	@Autowired
 	private Address address;
 
 	public Address getAddress() {
@@ -20,8 +22,6 @@ public class Emp {
 		System.out.println("inside Emp default constructor");
 	}
 
-	// @Autowire for constructor
-	@Autowired
 	public Emp(Address address) {
 		super();
 		this.address = address;
