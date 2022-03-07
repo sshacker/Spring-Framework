@@ -26,18 +26,26 @@
 		<entry key="Hibernate Framework" value="2000" />
 	</util:map>
 
-	<util:properties id="dbconfig">
+	<util:properties id="dbconfigs">
 		<prop key="driver">com.mysql.jdbc.Driver</prop>
 		<prop key="url">mysql:jdbc://localhost:3306/database</prop>
 		<prop key="usernmae">root</prop>
 		<prop key="password">abcd</prop>
 	</util:properties>
 
+	<util:set set-class="java.util.TreeSet" id="colors">
+		<value>D</value>
+		<value>B</value>
+		<value>A</value>
+		<value>D</value>
+	</util:set>
+
 	<bean name="people1"
 		class="com.sshacker.springcore.standalone.collection.People">
 		<property name="friends" ref="mybestfriends" />
 		<property name="feeStructures" ref="fees" />
-		<property name="dbConfigs" ref="dbconfig"></property>
+		<property name="dbConfigs" ref="dbconfigs" />
+		<property name="colors" ref="colors" />
 	</bean>
 
 </beans>

@@ -20,5 +20,8 @@ public class MainApp {
 		
 		System.out.println(p1.getDbConfigs());
 		System.out.println(p1.getDbConfigs().getClass().getName());
+		
+		System.out.println(p1.getColors());
+		System.out.println(p1.getColors().getClass().getName());
 	}
 }
