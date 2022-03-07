@@ -20,9 +20,16 @@
 		<value>D</value>
 	</util:list>
 
+	<util:map map-class="java.util.HashMap" id="fees">
+		<entry key="Spring Framework" value="8000" />
+		<entry key="Django Framework" value="5000" />
+		<entry key="Hibernate Framework" value="2000" />
+	</util:map>
+
 	<bean name="people1"
 		class="com.sshacker.springcore.standalone.collection.People">
 		<property name="friends" ref="mybestfriends" />
+		<property name="feeStructures" ref="fees" />
 	</bean>
 
 </beans>

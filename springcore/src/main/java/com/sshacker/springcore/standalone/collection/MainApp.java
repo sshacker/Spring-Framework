@@ -11,7 +11,11 @@ public class MainApp {
 		ApplicationContext context = new ClassPathXmlApplicationContext(
 				"com/sshacker/springcore/standalone/collection/standalonecollectionconfig.xml");
 		People p1 = context.getBean("people1", People.class);
+		
 		System.out.println(p1.getFriends());
 		System.out.println(p1.getFriends().getClass().getName());
+		
+		System.out.println(p1.getFeeStructures());
+		System.out.println(p1.getFeeStructures().getClass().getName());
 	}
 }
