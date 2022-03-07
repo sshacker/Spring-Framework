@@ -13,6 +13,10 @@ public class TestMain {
 		System.out.println(e1.getAddresses());
 		System.out.println(e1.getCourses());
 		System.out.println(e1.getLogin());
+		
+		System.out.println(e1.getPhones().getClass().getName());
+		System.out.println(e1.getAddresses().getClass().getName());
+		System.out.println(e1.getCourses().getClass().getName());
+		System.out.println(e1.getLogin().getClass().getName());
 	}
-
 }
