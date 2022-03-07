@@ -17,5 +17,8 @@ public class MainApp {
 		
 		System.out.println(p1.getFeeStructures());
 		System.out.println(p1.getFeeStructures().getClass().getName());
+		
+		System.out.println(p1.getDbConfigs());
+		System.out.println(p1.getDbConfigs().getClass().getName());
 	}
 }
