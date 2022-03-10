@@ -1,10 +1,15 @@
 package com.sshacker.springcore.stereotype;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Student {
+	
+	@Value("Shivam Sonkar")
 	private String studentName;
+	
+	@Value("Varanasi")
 	private String city;
 
 	public String getStudentName() {
