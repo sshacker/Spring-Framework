@@ -3,7 +3,7 @@ package com.sshacker.springcore.stereotype;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("student1")
 public class Student {
 	
 	@Value("Shivam Sonkar")
